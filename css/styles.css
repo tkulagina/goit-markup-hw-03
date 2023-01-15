@@ -1,0 +1,231 @@
+:root {
+    --brand-color: #2196F3;
+    --secondary-brand-color: #000000;
+    --third-brand-color: #FFFFFF;
+    --footer-color: #2F303A;
+    --text-color: #757575;
+    --title-color: #212121;
+    --main-background-color: #F5F5F5;
+    --second-background-color: #F5F4FA;
+    --active-button-color: #188CE8;
+    --main-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+}
+
+.body {
+    font-family: var(--main-font-family);
+    
+    color: var(--text-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+/*====start header====*/
+.logo {
+    font-family: var(--logo-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+           
+    color: var(--brand-color);
+}
+
+.secondary-logo-color{
+    color: var(--secondary-brand-color); 
+}
+
+.menu .link.current {
+    color: var(--brand-color);
+}
+
+.menu a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    
+    color: var(--title-color);
+}
+.connect a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    color: var(--text-color);
+}
+
+.menu a:hover,
+.menu a:focus,
+.connect a:hover,
+.connect a:focus {
+    color: var(--brand-color);
+}
+/*====end header====*/
+
+/*====start hero====*/
+.hero-style {
+    background-color: var(--footer-color);
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--third-brand-color); 
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+      
+    cursor: pointer;
+
+    color: var(--third-brand-color);
+    background-color: var(--brand-color); 
+}
+
+.button :hover,
+.button :focus {
+    color: var(--active-button-color);
+}
+ /*====end hero====*/
+
+ /*====start section 2====*/
+.visually-hidden {
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+   }
+
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    
+    color: var(--title-color);
+}
+
+.text-particulars {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/*====end section 2====*/
+
+/*====start section 3====*/
+.section-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+       
+    color: var(--title-color);
+}
+/*====end section 3====*/
+
+/*====start section 4====*/
+.section-style{
+    background-color: var(--second-background-color) ;
+}
+
+.photo-style {
+    background-color: var(--third-brand-color);
+}
+
+.subtitle-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    
+    color: var(--title-color);
+}
+
+.team-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+/*====end section 4====*/
+
+/*====start footer====*/
+.footer-style {
+    background-color: var(--footer-color);
+}
+
+.third-logo-color {
+    color: var(--third-brand-color);
+}
+
+address {
+    font-style: normal;
+}
+
+.address-style {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+       
+    color: var(--third-brand-color);
+}
+
+.footer-contact {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--brand-color);
+}
+/*====end footer====*/
+
+/*====start section portfolio====*/
+.button-portfolio {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+   
+    cursor: pointer;
+
+    color: var(--title-color);
+    background-color: var(--second-background-color);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--third-brand-color);
+    background-color: var(--brand-color);
+}
+
+.subtitle-photo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+   
+    color: var(--title-color);
+}
+
+.text-photo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    color: var(--text-color);
+}
+/*====end section portfolio====*/
