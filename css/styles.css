@@ -23,8 +23,19 @@
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+
+    outline: 2px solid tomato;
+}
+
 /*====start header====*/
 .logo {
     font-family: var(--logo-font-family);
@@ -67,11 +78,12 @@
 /*====end header====*/
 
 /*====start hero====*/
-.hero-style {
+.hero-style {     
     background-color: var(--footer-color);
 }
 
 .hero {
+    margin: 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -82,11 +94,15 @@
 }
 
 .button {
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 216;
+    border: 1px solid transparent;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-      
+    text-align: center; 
     cursor: pointer;
 
     color: var(--third-brand-color);
@@ -114,6 +130,7 @@
    }
 
 .subtitle {
+    margin: 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -122,6 +139,7 @@
 }
 
 .text-particulars {
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -130,6 +148,7 @@
 
 /*====start section 3====*/
 .section-name {
+    margin: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -149,6 +168,7 @@
 }
 
 .subtitle-team {
+    margin: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -157,6 +177,7 @@
 }
 
 .team-title {
+    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -174,9 +195,11 @@
 
 address {
     font-style: normal;
+    margin: 0;
 }
 
 .address-style {
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -196,6 +219,10 @@ address {
 
 /*====start section portfolio====*/
 .button-portfolio {
+    border-radius: 4px;
+    padding: 6px 22px;
+    min-width: 73px;
+    border: 1px solid transparent;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -214,6 +241,7 @@ address {
 }
 
 .subtitle-photo {
+    margin: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -222,6 +250,7 @@ address {
 }
 
 .text-photo {
+    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
