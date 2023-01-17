@@ -32,11 +32,32 @@
     margin-right: auto;
     margin-left: auto;
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     outline: 2px solid tomato;
 }
 
 /*====start header====*/
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin-left: 93px;
+}
+
+.connect {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu .item + .item {
+    margin-left: 50px;
+}
+
 .logo {
     font-family: var(--logo-font-family);
     font-weight: 700;
@@ -54,14 +75,23 @@
     color: var(--brand-color);
 }
 
-.menu a{
+.menu .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     
-    color: var(--title-color);
+    color: var(--title-color); 
 }
-.connect a{
+
+.connect .item + .item {
+    margin-left: 50px;
+}
+
+.connect .link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
