@@ -28,6 +28,24 @@
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 .container{
     margin-right: auto;
     margin-left: auto;
@@ -108,7 +126,9 @@
 /*====end header====*/
 
 /*====start hero====*/
-.hero-style {     
+.hero-style { 
+    padding-top: 200px; 
+    padding-bottom: 200px;   
     background-color: var(--footer-color);
     text-align: center;
 }
@@ -117,7 +137,6 @@
     margin: 0 auto;
     width: 696px;
     
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -128,15 +147,18 @@
 }
 
 .button {
+    margin-top: 30px;
     border-radius: 4px;
     padding: 10px 32px;
     min-width: 216;
-    border: 1px solid transparent;
+    border: 0px solid transparent;
+
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     text-align: center; 
+    letter-spacing: 0.06em;
     cursor: pointer;
 
     color: var(--third-brand-color);
@@ -164,7 +186,6 @@
    }
 
 .subtitle {
-    margin: 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -173,16 +194,27 @@
 }
 
 .text-particulars {
-    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+
+.item-exeptions {
+    display: block;
+    width: 270px;
+}
+
+.list-exeption .item-exeptions + .item-exeptions {
+    margin-left: 30px;
+}
+
+.list-exeption {
+    display: inline;
 }
 /*====end section 2====*/
 
 /*====start section 3====*/
 .section-name {
-    margin: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -202,7 +234,6 @@
 }
 
 .subtitle-team {
-    margin: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -211,7 +242,6 @@
 }
 
 .team-title {
-    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -275,7 +305,6 @@ address {
 }
 
 .subtitle-photo {
-    margin: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -284,7 +313,6 @@ address {
 }
 
 .text-photo {
-    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
