@@ -136,13 +136,10 @@ img {
 
 /*====start hero====*/
 .hero-style {  
+    padding-top: 200px; 
+    padding-bottom: 200px;
     background-color: var(--footer-color);
     text-align: center;
-}
-
-.container-hero {
-    padding-top: 200px; 
-    padding-bottom: 200px; 
 }
 
 .hero {
@@ -210,6 +207,7 @@ img {
     margin-right: 15px;
 }
 .subtitle {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -225,14 +223,17 @@ img {
 /*====end section 2====*/
 
 /*====start section 3====*/
-.list-actions {
-    display: flex;
-    flex-wrap: wrap;
+.section-actions {
     padding-bottom: 94px;
 }
 
+.list-actions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .section-name {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
     font-weight: 700;
     font-size: 36px;
@@ -255,19 +256,18 @@ img {
 
 .list-team {
     display: flex; 
-    margin-left: -15px;  
-    margin-right: -15px; 
+    margin-left: -30px;  
 }
 .photo-style {
     flex-basis: calc((100% - 90)/4);
-    margin-left: 15px;
-    margin-right: 15px;
-
+    margin-left: 30px;
+   
     background-color: var(--third-brand-color);
 }
 
 .team-description {
     padding-top: 30px;
+    padding-bottom: 30px;
 
     border-radius: 0px 0px 4px 4px;  
 }
@@ -285,8 +285,6 @@ img {
 }
 
 .team-title {
-    padding-bottom: 30px;
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -297,11 +295,10 @@ img {
 /*====end section 4====*/
 
 /*====start footer====*/
-.container-footer {
+.footer-style {
     padding-top: 60px;
     padding-bottom: 60px;
-}
-.footer-style {
+    
     background-color: var(--footer-color);
 }
 
@@ -310,6 +307,8 @@ img {
 }
 
 .address-style {
+    margin-top: 20px;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -323,7 +322,6 @@ address {
 }
 
 .address {
-    margin-top: 20px;
     margin-bottom: 9px; 
 }
 
@@ -350,9 +348,11 @@ address {
     margin-bottom: 50px;
 }
 
-.button-portfolio {
-    margin-right: 8px;
+.list-button .item-button+.item-button {
+    margin-left: 8px;
+}
 
+.button-portfolio {
     border-radius: 4px;
     padding: 6px 22px;
     min-width: 73px;
@@ -384,7 +384,9 @@ address {
 
 .photo-style-list {
     padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .photo-style {
@@ -395,6 +397,7 @@ margin-left: 30px;
 }
 
 .subtitle-photo {
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
