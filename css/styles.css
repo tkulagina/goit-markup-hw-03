@@ -326,12 +326,13 @@ address {
 }
 
 .footer-contact {
-    margin-bottom: 9px;
-
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-tel {
+.item-footer {
+    margin-bottom: 9px;
+}
+.footer-list :last-child {
     margin-bottom: 0;
 }
 
@@ -390,7 +391,6 @@ address {
 }
 
 .photo-style {
-margin-top: 30px;
 margin-right: 0;
 margin-bottom: 0;
 margin-left: 30px;
